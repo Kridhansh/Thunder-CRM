@@ -1,6 +1,12 @@
 # CRM Application
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: Non-Commercial](https://img.shields.io/badge/License-Non--Commercial-red.svg)](LICENSE)
+[![Open Source? Yes!](https://badgen.net/badge/Open%20Source/Yes,%20but/green/)](LICENSE)
+
 A modern, production-ready CRM (Customer Relationship Management) application built with React Router v7 using full-stack architecture.
+
+> ⚠️ **Important**: This software is free for personal, educational, and non-commercial use only. Selling this software commercially is strictly prohibited.
 
 ## Tech Stack
 
@@ -265,6 +271,60 @@ Deploy the output of `npm run build`:
 - `/deals` - Deals pipeline
 - `/tasks` - Task management
 - `/users` - User management (Admin only)
+
+## Contributing
+
+We welcome contributions from the community! Here's how you can help:
+
+### How to Contribute
+
+1. **Fork the Repository** - Click the "Fork" button on GitHub
+2. **Clone Your Fork** - `git clone https://github.com/YOUR_USERNAME/crm-open-source.git`
+3. **Create a Branch** - `git checkout -b feature/your-feature-name`
+4. **Make Changes** - Implement your feature or fix
+5. **Test Your Changes** - Ensure everything works correctly
+6. **Commit Changes** - `git commit -m "Description of changes"`
+7. **Push to GitHub** - `git push origin feature/your-feature-name`
+8. **Create Pull Request** - Open a PR on GitHub
+
+### Pull Request Guidelines
+
+Before submitting a PR, please ensure:
+
+- ✅ Your code follows the existing project structure (MVC pattern)
+- ✅ TypeScript types are properly defined
+- ✅ No console.log statements or debug code
+- ✅ Code is properly formatted and linted
+- ✅ New features include appropriate comments
+- ✅ You tested your changes locally
+
+### PR Review Process
+
+1. **Automated Checks** - CI will run tests and linting
+2. **Code Review** - Maintainers will review your code
+3. **Feedback** - You may receive comments requesting changes
+4. **Approval** - Once approved, your PR will be merged
+5. **Merge** - Your changes become part of the project
+
+### What to Include in PR
+
+- Clear description of the changes
+- Link to any related issues
+- Screenshots for UI changes
+- Test results (if applicable)
+
+### Code of Conduct
+
+- Be respectful and inclusive
+- Provide constructive feedback
+- Help others learn and grow
+- Follow the project's coding standards
+
+## License
+
+This project is licensed under the **MIT License** with **Non-Commercial Use Only** restrictions.
+
+See [LICENSE](LICENSE) file for full details.
 
 ---
 
