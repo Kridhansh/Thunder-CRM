@@ -1,15 +1,27 @@
 @import "tailwindcss";
 
-@theme {
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
+/* Force light mode */
 html,
 body {
-  @apply bg-white dark:bg-gray-950;
+  background-color: white;
+  color: #111827;
+  color-scheme: light;
+}
 
-  @media (prefers-color-scheme: dark) {
-    color-scheme: dark;
+input, 
+textarea, 
+select {
+  color: #111827;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #9ca3af;
+}
+
+@media (prefers-color-scheme: dark) {
+  html, body {
+    background-color: white;
+    color: #111827;
   }
 }
